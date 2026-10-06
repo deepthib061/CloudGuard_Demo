@@ -10,4 +10,5 @@ Block bad commits (inside any git repo):
     printf '#!/bin/sh\npython3 /full/path/to/cloudguard.py precommit\n' > .git/hooks/pre-commit
     chmod +x .git/hooks/pre-commit
 
-All keys in samples/ are the official AWS dummy examples, not real credentials.
+All credentials and API keys in samples/ are dummy
+examples only and must not be used as real credentials.
