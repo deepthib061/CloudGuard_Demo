@@ -17,6 +17,7 @@ import sys
 # ---------- colours ----------
 R, Y, G, B, X = "\033[91m", "\033[93m", "\033[92m", "\033[1m", "\033[0m"
 
+
 # ---------- secret patterns ----------
 SECRET_PATTERNS = {
     "AWS Access Key ID": re.compile(r"\b(AKIA|ASIA)[0-9A-Z]{16}\b"),
